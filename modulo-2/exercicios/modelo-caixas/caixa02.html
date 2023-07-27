@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(236, 225, 225);
+            color: blue;
+        }
+
+        header {
+            text-align: center;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1 {
+           /* inset é para criar a sombra interna*/
+            box-shadow: 5px 5px 5px black;
+            padding: 5px;
+        }
+
+        nav {
+            background-color: antiquewhite;
+            padding: 3px;
+            /* ordem do box-shadow: deslocamento horizontal, deslocamento vertical, espalhamento e sombra*/
+            box-shadow: 5px 5px 5px black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: lighter;
+            color: black;
+            margin-right: 50px;
+            
+        }
+
+        nav > a:hover {
+           background-color: rgb(214, 138, 138);
+
+        }
+
+        article  > aside {
+            text-align: right;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        article > h2 {
+            background-color: antiquewhite;
+            padding-left: 5px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 20px;
+        }
+
+        footer {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 0.5px;
+            margin: 0px;
+        }
+
+        section > h2 {
+            background-color: antiquewhite;
+            padding: 2px;
+            border-radius: 20px;
+            padding-left: 5px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: blue;
+            border-radius: 50%;
+            text-align: center;
+            color: white;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+            <nav>
+                <a href="https://www.facebook.com/mary.angela.1447342/">Facebook</a>
+                <a href="">Instagram</a>
+                <a href="">Linkerdin</a>
+                <a href="">whatsapp</a>
+                <a href="">Sobre</a>
+            </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Esportes, Política e Tecnologia</h2>
+            <p>O mundo do esporte tem evoluído muito no decorrer dos anos.</p>
+        </section>
+        <section id="noticias"></section>
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde odit repellendus, aspernatur ut sit nulla officia quidem amet. Distinctio quia vitae recusandae deleniti, quis ullam beatae eligendi eveniet odio ea?</p>
+                <aside>
+                    <p>Artigo escrito por Mary Ângela</p>
+                </aside>
+            </article>
+           
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Mary Ângela</p>
+    </footer>
+    <div id="bola"><br><br>Bola</div>
+</body>
+</html>
