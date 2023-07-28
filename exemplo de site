@@ -1,0 +1,51 @@
+exemplo de site
+
+tags importantes
+
+* backgroud-color: 						cor do fundo
+* color: 								cor a fonte
+
+* font-family: 							estilo da fonte
+* font-weight:							espessura da fonte
+
+* min-width:							largura mínima
+* max-width:							largura máxima
+* width:								largura
+* height:								altura
+
+* margin: auto							centraliza a margem (a ordem das margem é: top, direita, inferior, esquerda)
+* margin-bottom:						margem inferior
+* padding:								espaço entre o conteúdo e a margem
+
+* box-shadow							sombra
+* border-radius:						bordas arrendodadas
+
+* img:									inserir uma imagem
+* picture source media					para incorporar uma imagem pequena e grande
+* target _blank							abrir um conteúdo com outra aba
+* target _self							abrir na mesma aba
+* controls								para aparecer um player 
+* autoplay								para rodar um vídeo
+* header								cabeçalho de uma página
+* footer								rodápé
+
+* aside									texto a parte (um conteúdo geralmente destacado da página)
+* article								artigo
+
+* nav									para criar menus
+* link									geralmente abaixo do tittle para inserir favicons
+
+* backgroud-image: linear=-gradiente	efeito gradiente
+* text-align:							posição do texto
+* text-ident:							recuo do parágrafo
+* line-heinght:							espaço (altura) entre uma linha e outra
+
+* lis-style-position:					posição da lista
+* list-style-type						tipo de estilo de lista
+* columns:								dividir em colunas
+* position:								posição de algo (vídeo)
+
+obs: para inserir emogis é só digitar &#x + código. Exemplo: &#x2714 ou '/e o numero do código. Exemplo: '/2714' (nem todo navegador é compatível com essa opção) \00A0: é o espaço sem quebra
+
+
+
