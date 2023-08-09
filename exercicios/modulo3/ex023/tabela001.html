@@ -11,33 +11,34 @@
 
         table {
             width: 400px;
+            height: 400px;
             border-collapse: collapse;
-        }
-
-        tr.linha {
-            background-color: bisque;
         }
 
         td {
             border: 1px solid black;
             padding: 8px;
+            text-align: center; /*Alinhamento horizontal*/
+            vertical-align: middle; /*Alinhamento vertical*/
         }
 
-        td.red {
-            background-color: red;
+        .numero {
+            text-align: right;
+
         }
+
     </style>
 </head>
 <body>
     <h1>Minha primeira tabela</h1>
     <table>
         <tr>
-            <td>A1</td>
+            <td class="numero">A1</td>
             <td>B1</td>
             <td>C1</td>
         </tr>
-        <tr class="linha">
-            <td class="red">A2</td>
+        <tr>
+            <td>A2</td>
             <td>B2</td>
             <td>C2</td>
         </tr>
